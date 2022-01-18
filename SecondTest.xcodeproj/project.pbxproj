@@ -19,6 +19,7 @@
 		B52BB36E2795057A00D935A7 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52BB36D2795057A00D935A7 /* Journal.swift */; };
 		B52BB370279505B500D935A7 /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52BB36F279505B500D935A7 /* JournalViewModel.swift */; };
 		B52BB37427950A6400D935A7 /* SeeNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52BB37327950A6400D935A7 /* SeeNote.swift */; };
+		B57AAABA27965605007AEC34 /* DebounceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57AAAB927965604007AEC34 /* DebounceTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		B52BB36D2795057A00D935A7 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
 		B52BB36F279505B500D935A7 /* JournalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewModel.swift; sourceTree = "<group>"; };
 		B52BB37327950A6400D935A7 /* SeeNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeNote.swift; sourceTree = "<group>"; };
+		B57AAAB927965604007AEC34 /* DebounceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				B52BB33C2795039E00D935A7 /* Assets.xcassets */,
 				B52BB3412795039E00D935A7 /* SecondTest.entitlements */,
 				B52BB33E2795039E00D935A7 /* Preview Content */,
+				B57AAAB927965604007AEC34 /* DebounceTest.swift */,
 			);
 			path = SecondTest;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			files = (
 				B52BB370279505B500D935A7 /* JournalViewModel.swift in Sources */,
 				B52BB37427950A6400D935A7 /* SeeNote.swift in Sources */,
+				B57AAABA27965605007AEC34 /* DebounceTest.swift in Sources */,
 				B52BB33B2795039C00D935A7 /* ContentView.swift in Sources */,
 				B52BB36E2795057A00D935A7 /* Journal.swift in Sources */,
 				B52BB3392795039C00D935A7 /* SecondTestApp.swift in Sources */,
@@ -469,6 +473,7 @@
 				DEVELOPMENT_TEAM = DP35G3JNX9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -497,6 +502,7 @@
 				DEVELOPMENT_TEAM = DP35G3JNX9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
